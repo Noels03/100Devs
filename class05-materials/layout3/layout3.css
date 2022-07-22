@@ -1,0 +1,56 @@
+
+*{
+    box-sizing: border-box;
+    display: -webkit-flex
+    display: flex;
+}
+header, footer{
+    height: 100px;
+    border: 2px solid black;
+    clear: both;
+}
+.box1 {
+    -webkit-box-flex: initial;
+                flex: initial;
+    height: 300px;
+    width: 20%;
+    min-width: 100px;
+    border: 2px solid black;
+    float: left;
+}
+
+.box2 {
+    -webkit-box-flex: none;
+    flex: none;
+    height: 300px;
+    width: 40%;
+    border: 3px solid black;
+    display: inline-block;
+}
+/*MEDIA QUERY EXAMPLE>>>>>> SCREEN = 0px)*/
+
+@media screen and (max-width: 600px) {
+    section{
+        background-color: green;
+    }
+}
+.box3 {
+    -webkit-box-flex: 1;
+    flex: 1;
+    height: 300px;
+    width: 19.5%;
+    border: 3px solid black;
+    display: inline-block;
+}
+.box4 {
+    -webkit-box-flex: 2;
+    flex: 2;
+    height: 300px;
+    width: 19.5%;
+    border: 3px solid black;
+    display: inline-block;
+}
+
+PROBABLY NEEDS TO BE FIXED
+
+

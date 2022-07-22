@@ -1,0 +1,123 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+.one {
+  background-image: url("../images/darkerFruit.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+#mainText {
+  color: azure;
+  text-shadow: 1px 1px 3px black;
+  font-family: 'Karla', sans-serif;
+}
+.navMenu {
+  display: inline-flex;
+  list-style: none;
+}
+.navItems {
+  padding: 15px;
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  font-size: 100px;
+  display: block;
+  width: 25%;
+}
+.oneText {
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.two {
+  background-image: url("../images/stefan-johnson-xIFbDeGcy44-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: larger;
+}
+.twoText {
+  padding: 20% 20% 20% 45%;
+}
+.about {
+  color:rgb(214, 127, 47);
+}
+.storyHead {
+  padding: 5% 0%;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+}
+.story {
+  padding-bottom: 10%;
+}
+ .button {
+  background-color: rgb(154, 65, 26);
+  padding: 15px 25px;
+  text-decoration: underline;
+  border-radius: 4px;
+  color: azure;
+ }
+
+.three {
+  background-color: rgb(173	154	131);
+  text-align: center;
+  padding-top: 5%;
+}
+.specialtyCuisine {
+  font-family: 'Playfair Display', serif;
+  padding: 3% 0 5% 0;
+  font-size: 50px;
+}
+.meals {
+  height: 275px;
+  width: 275px;
+  padding: 10px;
+}
+.photos {
+  padding: 10px 10% 10% 10%;
+}
+.footer {
+  background-color: rgb(107, 97, 86);
+  padding: 3%;
+  text-align: center;
+}
+.info {
+  font-size: 15px;
+  width: 25%;
+  height: 45%;
+  text-align: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
